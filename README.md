@@ -32,7 +32,7 @@ KVC，键-值编码，使用字符串直接访问对象的属性。
 3.如果没有找到_key，就会查找相同名称的属性key，如果有就直接赋值
 4.如果还没找到，则调用valueForUndefinedKey：和setValue：forUndefinedKey：方法
 
-## KOV
+## KVO
 ### KVO的实现原理
 KVO-键值观察机制，原理如下：
 
